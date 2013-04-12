@@ -1,0 +1,747 @@
+Archive member included because of file (symbol)
+
+c:/program files/atmel/avr tools/avr toolchain/bin/../lib/gcc/avr/4.5.1/avr5\libgcc.a(_udivmodhi4.o)
+                              base64_enc.o (__udivmodhi4)
+c:/program files/atmel/avr tools/avr toolchain/bin/../lib/gcc/avr/4.5.1/avr5\libgcc.a(_divmodhi4.o)
+                              qrframe.o (__divmodhi4)
+c:/program files/atmel/avr tools/avr toolchain/bin/../lib/gcc/avr/4.5.1/avr5\libgcc.a(_exit.o)
+                              c:/program files/atmel/avr tools/avr toolchain/bin/../lib/gcc/avr/4.5.1/../../../../avr/lib/avr5/crtm328p.o (exit)
+c:/program files/atmel/avr tools/avr toolchain/bin/../lib/gcc/avr/4.5.1/avr5\libgcc.a(_copy_data.o)
+                              base64_enc.o (__do_copy_data)
+c:/program files/atmel/avr tools/avr toolchain/bin/../lib/gcc/avr/4.5.1/avr5\libgcc.a(_clear_bss.o)
+                              qrauth.o (__do_clear_bss)
+c:/program files/atmel/avr tools/avr toolchain/bin/../lib/gcc/avr/4.5.1/../../../../avr/lib/avr5\libc.a(calloc.o)
+                              qrframe.o (calloc)
+c:/program files/atmel/avr tools/avr toolchain/bin/../lib/gcc/avr/4.5.1/../../../../avr/lib/avr5\libc.a(malloc.o)
+                              qrframe.o (malloc)
+c:/program files/atmel/avr tools/avr toolchain/bin/../lib/gcc/avr/4.5.1/../../../../avr/lib/avr5\libc.a(memcpy_P.o)
+                              qrencode.o (memcpy_P)
+c:/program files/atmel/avr tools/avr toolchain/bin/../lib/gcc/avr/4.5.1/../../../../avr/lib/avr5\libc.a(memcpy.o)
+                              qrencode.o (memcpy)
+c:/program files/atmel/avr tools/avr toolchain/bin/../lib/gcc/avr/4.5.1/../../../../avr/lib/avr5\libc.a(memmove.o)
+                              qrencode.o (memmove)
+c:/program files/atmel/avr tools/avr toolchain/bin/../lib/gcc/avr/4.5.1/../../../../avr/lib/avr5\libc.a(memset.o)
+                              qrencode.o (memset)
+c:/program files/atmel/avr tools/avr toolchain/bin/../lib/gcc/avr/4.5.1/../../../../avr/lib/avr5\libc.a(strcpy.o)
+                              qrauth.o (strcpy)
+c:/program files/atmel/avr tools/avr toolchain/bin/../lib/gcc/avr/4.5.1/avr5\libgcc.a(_epilogue.o)
+                              c:/program files/atmel/avr tools/avr toolchain/bin/../lib/gcc/avr/4.5.1/../../../../avr/lib/avr5\libc.a(calloc.o) (__epilogue_restores__)
+
+Allocating common symbols
+Common symbol       size              file
+
+qrframe             0x258             qrv4l2.o
+strinbuf            0xa5              qrv4l2.o
+__brkval            0x2               c:/program files/atmel/avr tools/avr toolchain/bin/../lib/gcc/avr/4.5.1/../../../../avr/lib/avr5\libc.a(malloc.o)
+rlens               0x22              qrv4l2.o
+__flp               0x2               c:/program files/atmel/avr tools/avr toolchain/bin/../lib/gcc/avr/4.5.1/../../../../avr/lib/avr5\libc.a(malloc.o)
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+text             0x00000000         0x00020000         xr
+data             0x00800060         0x0000ffa0         rw !x
+eeprom           0x00810000         0x00010000         rw !x
+fuse             0x00820000         0x00000400         rw !x
+lock             0x00830000         0x00000400         rw !x
+signature        0x00840000         0x00000400         rw !x
+*default*        0x00000000         0xffffffff
+
+Linker script and memory map
+
+Address of section .data set to 0x800100
+LOAD c:/program files/atmel/avr tools/avr toolchain/bin/../lib/gcc/avr/4.5.1/../../../../avr/lib/avr5/crtm328p.o
+LOAD qrauth.o
+LOAD qrframe.o
+LOAD qrencode.o
+LOAD i2c_phys.o
+LOAD sha204_comm.o
+LOAD sha204_comm_marshaling.o
+LOAD sha204_i2c.o
+LOAD timer_utilities.o
+LOAD base64_dec.o
+LOAD base64_enc.o
+LOAD qrv4l2.o
+LOAD c:/program files/atmel/avr tools/avr toolchain/bin/../lib/gcc/avr/4.5.1/avr5\libgcc.a
+LOAD c:/program files/atmel/avr tools/avr toolchain/bin/../lib/gcc/avr/4.5.1/../../../../avr/lib/avr5\libc.a
+LOAD c:/program files/atmel/avr tools/avr toolchain/bin/../lib/gcc/avr/4.5.1/avr5\libgcc.a
+
+.hash
+ *(.hash)
+
+.dynsym
+ *(.dynsym)
+
+.dynstr
+ *(.dynstr)
+
+.gnu.version
+ *(.gnu.version)
+
+.gnu.version_d
+ *(.gnu.version_d)
+
+.gnu.version_r
+ *(.gnu.version_r)
+
+.rel.init
+ *(.rel.init)
+
+.rela.init
+ *(.rela.init)
+
+.rel.text
+ *(.rel.text)
+ *(.rel.text.*)
+ *(.rel.gnu.linkonce.t*)
+
+.rela.text
+ *(.rela.text)
+ *(.rela.text.*)
+ *(.rela.gnu.linkonce.t*)
+
+.rel.fini
+ *(.rel.fini)
+
+.rela.fini
+ *(.rela.fini)
+
+.rel.rodata
+ *(.rel.rodata)
+ *(.rel.rodata.*)
+ *(.rel.gnu.linkonce.r*)
+
+.rela.rodata
+ *(.rela.rodata)
+ *(.rela.rodata.*)
+ *(.rela.gnu.linkonce.r*)
+
+.rel.data
+ *(.rel.data)
+ *(.rel.data.*)
+ *(.rel.gnu.linkonce.d*)
+
+.rela.data
+ *(.rela.data)
+ *(.rela.data.*)
+ *(.rela.gnu.linkonce.d*)
+
+.rel.ctors
+ *(.rel.ctors)
+
+.rela.ctors
+ *(.rela.ctors)
+
+.rel.dtors
+ *(.rel.dtors)
+
+.rela.dtors
+ *(.rela.dtors)
+
+.rel.got
+ *(.rel.got)
+
+.rela.got
+ *(.rela.got)
+
+.rel.bss
+ *(.rel.bss)
+
+.rela.bss
+ *(.rela.bss)
+
+.rel.plt
+ *(.rel.plt)
+
+.rela.plt
+ *(.rela.plt)
+
+.text           0x00000000     0x6768
+ *(.vectors)
+ .vectors       0x00000000       0x68 c:/program files/atmel/avr tools/avr toolchain/bin/../lib/gcc/avr/4.5.1/../../../../avr/lib/avr5/crtm328p.o
+                0x00000000                __vector_default
+                0x00000000                __vectors
+ *(.vectors)
+ *(.progmem.gcc*)
+ *(.progmem*)
+ .progmem.data  0x00000068     0x2580 qrauth.o
+                0x00000068                bmp1
+                0x00001328                bmp2
+ .progmem.data  0x000025e8      0x2ed qrframe.o
+ .progmem.data  0x000028d5      0x240 qrencode.o
+ .progmem.data  0x00002b15       0xec qrv4l2.o
+                0x00002b15                framebase
+                0x00002bba                framask
+                0x00002c02                . = ALIGN (0x2)
+ *fill*         0x00002c01        0x1 00
+                0x00002c02                __trampolines_start = .
+ *(.trampolines)
+ .trampolines   0x00002c02        0x0 linker stubs
+ *(.trampolines*)
+                0x00002c02                __trampolines_end = .
+ *(.jumptables)
+ *(.jumptables*)
+ *(.lowtext)
+ *(.lowtext*)
+                0x00002c02                __ctors_start = .
+ *(.ctors)
+                0x00002c02                __ctors_end = .
+                0x00002c02                __dtors_start = .
+ *(.dtors)
+                0x00002c02                __dtors_end = .
+ SORT(*)(.ctors)
+ SORT(*)(.dtors)
+ *(.init0)
+ .init0         0x00002c02        0x0 c:/program files/atmel/avr tools/avr toolchain/bin/../lib/gcc/avr/4.5.1/../../../../avr/lib/avr5/crtm328p.o
+                0x00002c02                __init
+ *(.init0)
+ *(.init1)
+ *(.init1)
+ *(.init2)
+ .init2         0x00002c02        0xc c:/program files/atmel/avr tools/avr toolchain/bin/../lib/gcc/avr/4.5.1/../../../../avr/lib/avr5/crtm328p.o
+ *(.init2)
+ *(.init3)
+ *(.init3)
+ *(.init4)
+ .init4         0x00002c0e       0x16 c:/program files/atmel/avr tools/avr toolchain/bin/../lib/gcc/avr/4.5.1/avr5\libgcc.a(_copy_data.o)
+                0x00002c0e                __do_copy_data
+ .init4         0x00002c24       0x10 c:/program files/atmel/avr tools/avr toolchain/bin/../lib/gcc/avr/4.5.1/avr5\libgcc.a(_clear_bss.o)
+                0x00002c24                __do_clear_bss
+ *(.init4)
+ *(.init5)
+ *(.init5)
+ *(.init6)
+ *(.init6)
+ *(.init7)
+ *(.init7)
+ *(.init8)
+ *(.init8)
+ *(.init9)
+ .init9         0x00002c34        0x8 c:/program files/atmel/avr tools/avr toolchain/bin/../lib/gcc/avr/4.5.1/../../../../avr/lib/avr5/crtm328p.o
+ *(.init9)
+ *(.text)
+ .text          0x00002c3c        0x4 c:/program files/atmel/avr tools/avr toolchain/bin/../lib/gcc/avr/4.5.1/../../../../avr/lib/avr5/crtm328p.o
+                0x00002c3c                __vector_22
+                0x00002c3c                __vector_1
+                0x00002c3c                __vector_24
+                0x00002c3c                __vector_12
+                0x00002c3c                __bad_interrupt
+                0x00002c3c                __vector_6
+                0x00002c3c                __vector_3
+                0x00002c3c                __vector_23
+                0x00002c3c                __vector_25
+                0x00002c3c                __vector_11
+                0x00002c3c                __vector_17
+                0x00002c3c                __vector_19
+                0x00002c3c                __vector_7
+                0x00002c3c                __vector_5
+                0x00002c3c                __vector_4
+                0x00002c3c                __vector_9
+                0x00002c3c                __vector_2
+                0x00002c3c                __vector_21
+                0x00002c3c                __vector_15
+                0x00002c3c                __vector_8
+                0x00002c3c                __vector_14
+                0x00002c3c                __vector_10
+                0x00002c3c                __vector_16
+                0x00002c3c                __vector_18
+                0x00002c3c                __vector_20
+ .text          0x00002c40      0x674 qrauth.o
+                0x00002c82                uart_getchar
+                0x00002c90                evaluate_ret_code
+                0x00002ca2                ascii_to_hex
+                0x00002d26                __vector_13
+                0x00002d54                main
+ .text          0x000032b4      0xcde qrframe.o
+                0x0000356c                initframe
+                0x00003dc8                freeframe
+                0x00003dee                initecc
+                0x00003f20                initeccsize
+ .text          0x00003f92     0x1254 qrencode.o
+                0x00004726                qrencode
+ .text          0x000051e6      0x178 i2c_phys.o
+                0x000051e6                i2c_enable
+                0x000051f8                i2c_disable
+                0x00005208                i2c_send_start
+                0x0000523c                i2c_send_stop
+                0x00005266                i2c_send_bytes
+                0x000052ae                i2c_receive_byte
+                0x000052e6                i2c_receive_bytes
+ .text          0x0000535e      0x29a sha204_comm.o
+                0x0000535e                sha204c_calculate_crc
+                0x000053c2                sha204c_check_crc
+                0x00005418                sha204c_wakeup
+                0x0000546c                sha204c_resync
+                0x00005490                sha204c_send_and_receive
+ .text          0x000055f8      0x806 sha204_comm_marshaling.o
+                0x000055f8                sha204m_execute
+                0x000057ca                sha204m_check_mac
+                0x0000589e                sha204m_derive_key
+                0x00005918                sha204m_dev_rev
+                0x0000594a                sha204m_gen_dig
+                0x000059cc                sha204m_hmac
+                0x00005a14                sha204m_lock
+                0x00005a68                sha204m_mac
+                0x00005af6                sha204m_nonce
+                0x00005b86                sha204m_pause
+                0x00005bba                sha204m_random
+                0x00005bf2                sha204m_read
+                0x00005c5c                sha204m_temp_sense
+                0x00005cd4                sha204m_update_extra
+                0x00005d1a                sha204m_write
+ .text          0x00005dfe      0x1c4 sha204_i2c.o
+                0x00005ea4                sha204p_set_device_id
+                0x00005eaa                sha204p_init
+                0x00005eb6                sha204p_wakeup
+                0x00005ef8                sha204p_send_command
+                0x00005f06                sha204p_idle
+                0x00005f14                sha204p_sleep
+                0x00005f22                sha204p_reset_io
+                0x00005f30                sha204p_receive_response
+                0x00005f82                sha204p_resync
+ .text          0x00005fc2       0x42 timer_utilities.o
+                0x00005fc2                delay_10us
+                0x00005fee                delay_ms
+ .text          0x00006004      0x212 base64_dec.o
+                0x00006004                base64_binlength
+                0x000060ae                base64dec
+ .text          0x00006216      0x1b8 base64_enc.o
+                0x00006216                base64enc
+ .text          0x000063ce        0x0 qrv4l2.o
+ .text          0x000063ce        0x0 c:/program files/atmel/avr tools/avr toolchain/bin/../lib/gcc/avr/4.5.1/avr5\libgcc.a(_udivmodhi4.o)
+ .text          0x000063ce        0x0 c:/program files/atmel/avr tools/avr toolchain/bin/../lib/gcc/avr/4.5.1/avr5\libgcc.a(_divmodhi4.o)
+ .text          0x000063ce        0x0 c:/program files/atmel/avr tools/avr toolchain/bin/../lib/gcc/avr/4.5.1/avr5\libgcc.a(_exit.o)
+ .text          0x000063ce        0x0 c:/program files/atmel/avr tools/avr toolchain/bin/../lib/gcc/avr/4.5.1/avr5\libgcc.a(_copy_data.o)
+ .text          0x000063ce        0x0 c:/program files/atmel/avr tools/avr toolchain/bin/../lib/gcc/avr/4.5.1/avr5\libgcc.a(_clear_bss.o)
+ .text          0x000063ce        0x0 c:/program files/atmel/avr tools/avr toolchain/bin/../lib/gcc/avr/4.5.1/../../../../avr/lib/avr5\libc.a(calloc.o)
+ .text          0x000063ce        0x0 c:/program files/atmel/avr tools/avr toolchain/bin/../lib/gcc/avr/4.5.1/../../../../avr/lib/avr5\libc.a(malloc.o)
+ .text          0x000063ce        0x0 c:/program files/atmel/avr tools/avr toolchain/bin/../lib/gcc/avr/4.5.1/../../../../avr/lib/avr5\libc.a(memcpy_P.o)
+ .text          0x000063ce        0x0 c:/program files/atmel/avr tools/avr toolchain/bin/../lib/gcc/avr/4.5.1/../../../../avr/lib/avr5\libc.a(memcpy.o)
+ .text          0x000063ce        0x0 c:/program files/atmel/avr tools/avr toolchain/bin/../lib/gcc/avr/4.5.1/../../../../avr/lib/avr5\libc.a(memmove.o)
+ .text          0x000063ce        0x0 c:/program files/atmel/avr tools/avr toolchain/bin/../lib/gcc/avr/4.5.1/../../../../avr/lib/avr5\libc.a(memset.o)
+ .text          0x000063ce        0x0 c:/program files/atmel/avr tools/avr toolchain/bin/../lib/gcc/avr/4.5.1/../../../../avr/lib/avr5\libc.a(strcpy.o)
+ .text          0x000063ce        0x0 c:/program files/atmel/avr tools/avr toolchain/bin/../lib/gcc/avr/4.5.1/avr5\libgcc.a(_epilogue.o)
+                0x000063ce                . = ALIGN (0x2)
+ *(.text.*)
+ .text.libgcc   0x000063ce       0x28 c:/program files/atmel/avr tools/avr toolchain/bin/../lib/gcc/avr/4.5.1/avr5\libgcc.a(_udivmodhi4.o)
+                0x000063ce                __udivmodhi4
+ .text.libgcc   0x000063f6       0x26 c:/program files/atmel/avr tools/avr toolchain/bin/../lib/gcc/avr/4.5.1/avr5\libgcc.a(_divmodhi4.o)
+                0x000063f6                _div
+                0x000063f6                __divmodhi4
+ .text.libgcc   0x0000641c        0x0 c:/program files/atmel/avr tools/avr toolchain/bin/../lib/gcc/avr/4.5.1/avr5\libgcc.a(_exit.o)
+ .text.libgcc   0x0000641c        0x0 c:/program files/atmel/avr tools/avr toolchain/bin/../lib/gcc/avr/4.5.1/avr5\libgcc.a(_copy_data.o)
+ .text.libgcc   0x0000641c        0x0 c:/program files/atmel/avr tools/avr toolchain/bin/../lib/gcc/avr/4.5.1/avr5\libgcc.a(_clear_bss.o)
+ .text.avr-libc
+                0x0000641c       0x48 c:/program files/atmel/avr tools/avr toolchain/bin/../lib/gcc/avr/4.5.1/../../../../avr/lib/avr5\libc.a(calloc.o)
+                0x0000641c                calloc
+ .text.avr-libc
+                0x00006464      0x266 c:/program files/atmel/avr tools/avr toolchain/bin/../lib/gcc/avr/4.5.1/../../../../avr/lib/avr5\libc.a(malloc.o)
+                0x00006464                malloc
+                0x00006598                free
+ .text.avr-libc
+                0x000066ca       0x12 c:/program files/atmel/avr tools/avr toolchain/bin/../lib/gcc/avr/4.5.1/../../../../avr/lib/avr5\libc.a(memcpy_P.o)
+                0x000066ca                memcpy_P
+ .text.avr-libc
+                0x000066dc       0x12 c:/program files/atmel/avr tools/avr toolchain/bin/../lib/gcc/avr/4.5.1/../../../../avr/lib/avr5\libc.a(memcpy.o)
+                0x000066dc                memcpy
+ .text.avr-libc
+                0x000066ee       0x24 c:/program files/atmel/avr tools/avr toolchain/bin/../lib/gcc/avr/4.5.1/../../../../avr/lib/avr5\libc.a(memmove.o)
+                0x000066ee                memmove
+ .text.avr-libc
+                0x00006712        0xe c:/program files/atmel/avr tools/avr toolchain/bin/../lib/gcc/avr/4.5.1/../../../../avr/lib/avr5\libc.a(memset.o)
+                0x00006712                memset
+ .text.avr-libc
+                0x00006720        0xe c:/program files/atmel/avr tools/avr toolchain/bin/../lib/gcc/avr/4.5.1/../../../../avr/lib/avr5\libc.a(strcpy.o)
+                0x00006720                strcpy
+ .text.libgcc   0x0000672e       0x36 c:/program files/atmel/avr tools/avr toolchain/bin/../lib/gcc/avr/4.5.1/avr5\libgcc.a(_epilogue.o)
+                0x0000672e                __epilogue_restores__
+                0x00006764                . = ALIGN (0x2)
+ *(.fini9)
+ .fini9         0x00006764        0x0 c:/program files/atmel/avr tools/avr toolchain/bin/../lib/gcc/avr/4.5.1/avr5\libgcc.a(_exit.o)
+                0x00006764                _exit
+                0x00006764                exit
+ *(.fini9)
+ *(.fini8)
+ *(.fini8)
+ *(.fini7)
+ *(.fini7)
+ *(.fini6)
+ *(.fini6)
+ *(.fini5)
+ *(.fini5)
+ *(.fini4)
+ *(.fini4)
+ *(.fini3)
+ *(.fini3)
+ *(.fini2)
+ *(.fini2)
+ *(.fini1)
+ *(.fini1)
+ *(.fini0)
+ .fini0         0x00006764        0x4 c:/program files/atmel/avr tools/avr toolchain/bin/../lib/gcc/avr/4.5.1/avr5\libgcc.a(_exit.o)
+ *(.fini0)
+                0x00006768                _etext = .
+
+.data           0x00800100       0x4e load address 0x00006768
+                0x00800100                PROVIDE (__data_start, .)
+ *(.data)
+ .data          0x00800100        0x0 c:/program files/atmel/avr tools/avr toolchain/bin/../lib/gcc/avr/4.5.1/../../../../avr/lib/avr5/crtm328p.o
+ .data          0x00800100        0x0 qrauth.o
+ .data          0x00800100        0x0 qrframe.o
+ .data          0x00800100        0x0 qrencode.o
+ .data          0x00800100        0x0 i2c_phys.o
+ .data          0x00800100        0x0 sha204_comm.o
+ .data          0x00800100        0x0 sha204_comm_marshaling.o
+ .data          0x00800100        0x0 sha204_i2c.o
+ .data          0x00800100        0x0 timer_utilities.o
+ .data          0x00800100        0x0 base64_dec.o
+ .data          0x00800100       0x40 base64_enc.o
+                0x00800100                base64_alphabet
+ .data          0x00800140        0x8 qrv4l2.o
+                0x00800140                neccblk1
+                0x00800141                neccblk2
+                0x00800142                datablkw
+                0x00800143                eccblkwid
+                0x00800144                VERSION
+                0x00800145                ECCLEVEL
+                0x00800146                WD
+                0x00800147                WDB
+ .data          0x00800148        0x0 c:/program files/atmel/avr tools/avr toolchain/bin/../lib/gcc/avr/4.5.1/avr5\libgcc.a(_udivmodhi4.o)
+ .data          0x00800148        0x0 c:/program files/atmel/avr tools/avr toolchain/bin/../lib/gcc/avr/4.5.1/avr5\libgcc.a(_divmodhi4.o)
+ .data          0x00800148        0x0 c:/program files/atmel/avr tools/avr toolchain/bin/../lib/gcc/avr/4.5.1/avr5\libgcc.a(_exit.o)
+ .data          0x00800148        0x0 c:/program files/atmel/avr tools/avr toolchain/bin/../lib/gcc/avr/4.5.1/avr5\libgcc.a(_copy_data.o)
+ .data          0x00800148        0x0 c:/program files/atmel/avr tools/avr toolchain/bin/../lib/gcc/avr/4.5.1/avr5\libgcc.a(_clear_bss.o)
+ .data          0x00800148        0x0 c:/program files/atmel/avr tools/avr toolchain/bin/../lib/gcc/avr/4.5.1/../../../../avr/lib/avr5\libc.a(calloc.o)
+ .data          0x00800148        0x6 c:/program files/atmel/avr tools/avr toolchain/bin/../lib/gcc/avr/4.5.1/../../../../avr/lib/avr5\libc.a(malloc.o)
+                0x00800148                __malloc_margin
+                0x0080014a                __malloc_heap_start
+                0x0080014c                __malloc_heap_end
+ .data          0x0080014e        0x0 c:/program files/atmel/avr tools/avr toolchain/bin/../lib/gcc/avr/4.5.1/../../../../avr/lib/avr5\libc.a(memcpy_P.o)
+ .data          0x0080014e        0x0 c:/program files/atmel/avr tools/avr toolchain/bin/../lib/gcc/avr/4.5.1/../../../../avr/lib/avr5\libc.a(memcpy.o)
+ .data          0x0080014e        0x0 c:/program files/atmel/avr tools/avr toolchain/bin/../lib/gcc/avr/4.5.1/../../../../avr/lib/avr5\libc.a(memmove.o)
+ .data          0x0080014e        0x0 c:/program files/atmel/avr tools/avr toolchain/bin/../lib/gcc/avr/4.5.1/../../../../avr/lib/avr5\libc.a(memset.o)
+ .data          0x0080014e        0x0 c:/program files/atmel/avr tools/avr toolchain/bin/../lib/gcc/avr/4.5.1/../../../../avr/lib/avr5\libc.a(strcpy.o)
+ .data          0x0080014e        0x0 c:/program files/atmel/avr tools/avr toolchain/bin/../lib/gcc/avr/4.5.1/avr5\libgcc.a(_epilogue.o)
+ *(.data*)
+ *(.rodata)
+ *(.rodata*)
+ *(.gnu.linkonce.d*)
+                0x0080014e                . = ALIGN (0x2)
+                0x0080014e                _edata = .
+                0x0080014e                PROVIDE (__data_end, .)
+
+.bss            0x0080014e      0x349
+                0x0080014e                PROVIDE (__bss_start, .)
+ *(.bss)
+ .bss           0x0080014e        0x0 c:/program files/atmel/avr tools/avr toolchain/bin/../lib/gcc/avr/4.5.1/../../../../avr/lib/avr5/crtm328p.o
+ .bss           0x0080014e       0x25 qrauth.o
+                0x0080014e                timer_cnt
+ .bss           0x00800173        0x0 qrframe.o
+ .bss           0x00800173        0x0 qrencode.o
+ .bss           0x00800173        0x0 i2c_phys.o
+ .bss           0x00800173        0x0 sha204_comm.o
+ .bss           0x00800173        0x0 sha204_comm_marshaling.o
+ .bss           0x00800173        0x1 sha204_i2c.o
+ .bss           0x00800174        0x0 timer_utilities.o
+ .bss           0x00800174        0x0 base64_dec.o
+ .bss           0x00800174        0x0 base64_enc.o
+ .bss           0x00800174        0x0 qrv4l2.o
+ .bss           0x00800174        0x0 c:/program files/atmel/avr tools/avr toolchain/bin/../lib/gcc/avr/4.5.1/avr5\libgcc.a(_udivmodhi4.o)
+ .bss           0x00800174        0x0 c:/program files/atmel/avr tools/avr toolchain/bin/../lib/gcc/avr/4.5.1/avr5\libgcc.a(_divmodhi4.o)
+ .bss           0x00800174        0x0 c:/program files/atmel/avr tools/avr toolchain/bin/../lib/gcc/avr/4.5.1/avr5\libgcc.a(_exit.o)
+ .bss           0x00800174        0x0 c:/program files/atmel/avr tools/avr toolchain/bin/../lib/gcc/avr/4.5.1/avr5\libgcc.a(_copy_data.o)
+ .bss           0x00800174        0x0 c:/program files/atmel/avr tools/avr toolchain/bin/../lib/gcc/avr/4.5.1/avr5\libgcc.a(_clear_bss.o)
+ .bss           0x00800174        0x0 c:/program files/atmel/avr tools/avr toolchain/bin/../lib/gcc/avr/4.5.1/../../../../avr/lib/avr5\libc.a(calloc.o)
+ .bss           0x00800174        0x0 c:/program files/atmel/avr tools/avr toolchain/bin/../lib/gcc/avr/4.5.1/../../../../avr/lib/avr5\libc.a(malloc.o)
+ .bss           0x00800174        0x0 c:/program files/atmel/avr tools/avr toolchain/bin/../lib/gcc/avr/4.5.1/../../../../avr/lib/avr5\libc.a(memcpy_P.o)
+ .bss           0x00800174        0x0 c:/program files/atmel/avr tools/avr toolchain/bin/../lib/gcc/avr/4.5.1/../../../../avr/lib/avr5\libc.a(memcpy.o)
+ .bss           0x00800174        0x0 c:/program files/atmel/avr tools/avr toolchain/bin/../lib/gcc/avr/4.5.1/../../../../avr/lib/avr5\libc.a(memmove.o)
+ .bss           0x00800174        0x0 c:/program files/atmel/avr tools/avr toolchain/bin/../lib/gcc/avr/4.5.1/../../../../avr/lib/avr5\libc.a(memset.o)
+ .bss           0x00800174        0x0 c:/program files/atmel/avr tools/avr toolchain/bin/../lib/gcc/avr/4.5.1/../../../../avr/lib/avr5\libc.a(strcpy.o)
+ .bss           0x00800174        0x0 c:/program files/atmel/avr tools/avr toolchain/bin/../lib/gcc/avr/4.5.1/avr5\libgcc.a(_epilogue.o)
+ *(.bss*)
+ *(COMMON)
+ COMMON         0x00800174        0x0 qrframe.o
+ COMMON         0x00800174      0x31f qrv4l2.o
+                0x00800174                qrframe
+                0x008003cc                strinbuf
+                0x00800471                rlens
+ COMMON         0x00800493        0x4 c:/program files/atmel/avr tools/avr toolchain/bin/../lib/gcc/avr/4.5.1/../../../../avr/lib/avr5\libc.a(malloc.o)
+                0x00800493                __brkval
+                0x00800495                __flp
+                0x00800497                PROVIDE (__bss_end, .)
+                0x00006768                __data_load_start = LOADADDR (.data)
+                0x000067b6                __data_load_end = (__data_load_start + SIZEOF (.data))
+
+.noinit         0x00800497        0x0
+                0x00800497                PROVIDE (__noinit_start, .)
+ *(.noinit*)
+                0x00800497                PROVIDE (__noinit_end, .)
+                0x00800497                _end = .
+                0x00800497                PROVIDE (__heap_start, .)
+
+.eeprom         0x00810000        0x0
+ *(.eeprom*)
+                0x00810000                __eeprom_end = .
+
+.fuse
+ *(.fuse)
+ *(.lfuse)
+ *(.hfuse)
+ *(.efuse)
+
+.lock
+ *(.lock*)
+
+.signature
+ *(.signature*)
+
+.stab           0x00000000      0x990
+ *(.stab)
+ .stab          0x00000000      0x6cc c:/program files/atmel/avr tools/avr toolchain/bin/../lib/gcc/avr/4.5.1/../../../../avr/lib/avr5/crtm328p.o
+ .stab          0x000006cc       0x84 c:/program files/atmel/avr tools/avr toolchain/bin/../lib/gcc/avr/4.5.1/../../../../avr/lib/avr5\libc.a(memcpy_P.o)
+                                 0x90 (size before relaxing)
+ .stab          0x00000750       0x84 c:/program files/atmel/avr tools/avr toolchain/bin/../lib/gcc/avr/4.5.1/../../../../avr/lib/avr5\libc.a(memcpy.o)
+                                 0x90 (size before relaxing)
+ .stab          0x000007d4       0xe4 c:/program files/atmel/avr tools/avr toolchain/bin/../lib/gcc/avr/4.5.1/../../../../avr/lib/avr5\libc.a(memmove.o)
+                                 0xf0 (size before relaxing)
+ .stab          0x000008b8       0x6c c:/program files/atmel/avr tools/avr toolchain/bin/../lib/gcc/avr/4.5.1/../../../../avr/lib/avr5\libc.a(memset.o)
+                                 0x78 (size before relaxing)
+ .stab          0x00000924       0x6c c:/program files/atmel/avr tools/avr toolchain/bin/../lib/gcc/avr/4.5.1/../../../../avr/lib/avr5\libc.a(strcpy.o)
+                                 0x78 (size before relaxing)
+
+.stabstr        0x00000000      0x274
+ *(.stabstr)
+ .stabstr       0x00000000      0x274 c:/program files/atmel/avr tools/avr toolchain/bin/../lib/gcc/avr/4.5.1/../../../../avr/lib/avr5/crtm328p.o
+
+.stab.excl
+ *(.stab.excl)
+
+.stab.exclstr
+ *(.stab.exclstr)
+
+.stab.index
+ *(.stab.index)
+
+.stab.indexstr
+ *(.stab.indexstr)
+
+.comment
+ *(.comment)
+
+.debug
+ *(.debug)
+
+.line
+ *(.line)
+
+.debug_srcinfo
+ *(.debug_srcinfo)
+
+.debug_sfnames
+ *(.debug_sfnames)
+
+.debug_aranges  0x00000000      0x188
+ *(.debug_aranges)
+ .debug_aranges
+                0x00000000       0x20 qrauth.o
+ .debug_aranges
+                0x00000020       0x20 qrframe.o
+ .debug_aranges
+                0x00000040       0x20 qrencode.o
+ .debug_aranges
+                0x00000060       0x20 i2c_phys.o
+ .debug_aranges
+                0x00000080       0x20 sha204_comm.o
+ .debug_aranges
+                0x000000a0       0x20 sha204_comm_marshaling.o
+ .debug_aranges
+                0x000000c0       0x20 sha204_i2c.o
+ .debug_aranges
+                0x000000e0       0x20 timer_utilities.o
+ .debug_aranges
+                0x00000100       0x20 base64_dec.o
+ .debug_aranges
+                0x00000120       0x20 base64_enc.o
+ .debug_aranges
+                0x00000140       0x20 c:/program files/atmel/avr tools/avr toolchain/bin/../lib/gcc/avr/4.5.1/../../../../avr/lib/avr5\libc.a(calloc.o)
+ .debug_aranges
+                0x00000160       0x28 c:/program files/atmel/avr tools/avr toolchain/bin/../lib/gcc/avr/4.5.1/../../../../avr/lib/avr5\libc.a(malloc.o)
+
+.debug_pubnames
+                0x00000000      0x686
+ *(.debug_pubnames)
+ .debug_pubnames
+                0x00000000       0x83 qrauth.o
+ .debug_pubnames
+                0x00000083       0xe4 qrframe.o
+ .debug_pubnames
+                0x00000167       0x1f qrencode.o
+ .debug_pubnames
+                0x00000186       0x94 i2c_phys.o
+ .debug_pubnames
+                0x0000021a       0x85 sha204_comm.o
+ .debug_pubnames
+                0x0000029f      0x137 sha204_comm_marshaling.o
+ .debug_pubnames
+                0x000003d6       0xd1 sha204_i2c.o
+ .debug_pubnames
+                0x000004a7       0x2e timer_utilities.o
+ .debug_pubnames
+                0x000004d5       0x35 base64_dec.o
+ .debug_pubnames
+                0x0000050a       0x34 base64_enc.o
+ .debug_pubnames
+                0x0000053e       0xac qrv4l2.o
+ .debug_pubnames
+                0x000005ea       0x1d c:/program files/atmel/avr tools/avr toolchain/bin/../lib/gcc/avr/4.5.1/../../../../avr/lib/avr5\libc.a(calloc.o)
+ .debug_pubnames
+                0x00000607       0x7f c:/program files/atmel/avr tools/avr toolchain/bin/../lib/gcc/avr/4.5.1/../../../../avr/lib/avr5\libc.a(malloc.o)
+
+.debug_info     0x00000000     0x32a9
+ *(.debug_info)
+ .debug_info    0x00000000      0x95e qrauth.o
+ .debug_info    0x0000095e      0x5ca qrframe.o
+ .debug_info    0x00000f28      0x9e8 qrencode.o
+ .debug_info    0x00001910      0x1f9 i2c_phys.o
+ .debug_info    0x00001b09      0x2fb sha204_comm.o
+ .debug_info    0x00001e04      0x832 sha204_comm_marshaling.o
+ .debug_info    0x00002636      0x315 sha204_i2c.o
+ .debug_info    0x0000294b       0xd8 timer_utilities.o
+ .debug_info    0x00002a23      0x1b7 base64_dec.o
+ .debug_info    0x00002bda      0x203 base64_enc.o
+ .debug_info    0x00002ddd      0x1a5 qrv4l2.o
+ .debug_info    0x00002f82       0x91 c:/program files/atmel/avr tools/avr toolchain/bin/../lib/gcc/avr/4.5.1/../../../../avr/lib/avr5\libc.a(calloc.o)
+ .debug_info    0x00003013      0x296 c:/program files/atmel/avr tools/avr toolchain/bin/../lib/gcc/avr/4.5.1/../../../../avr/lib/avr5\libc.a(malloc.o)
+ *(.gnu.linkonce.wi.*)
+
+.debug_abbrev   0x00000000     0x1030
+ *(.debug_abbrev)
+ .debug_abbrev  0x00000000      0x309 qrauth.o
+ .debug_abbrev  0x00000309      0x1b8 qrframe.o
+ .debug_abbrev  0x000004c1      0x290 qrencode.o
+ .debug_abbrev  0x00000751       0xb2 i2c_phys.o
+ .debug_abbrev  0x00000803       0xf2 sha204_comm.o
+ .debug_abbrev  0x000008f5      0x11f sha204_comm_marshaling.o
+ .debug_abbrev  0x00000a14      0x15c sha204_i2c.o
+ .debug_abbrev  0x00000b70       0x97 timer_utilities.o
+ .debug_abbrev  0x00000c07      0x135 base64_dec.o
+ .debug_abbrev  0x00000d3c      0x11c base64_enc.o
+ .debug_abbrev  0x00000e58       0x6e qrv4l2.o
+ .debug_abbrev  0x00000ec6       0x75 c:/program files/atmel/avr tools/avr toolchain/bin/../lib/gcc/avr/4.5.1/../../../../avr/lib/avr5\libc.a(calloc.o)
+ .debug_abbrev  0x00000f3b       0xf5 c:/program files/atmel/avr tools/avr toolchain/bin/../lib/gcc/avr/4.5.1/../../../../avr/lib/avr5\libc.a(malloc.o)
+
+.debug_line     0x00000000     0x3a02
+ *(.debug_line)
+ .debug_line    0x00000000      0x76e qrauth.o
+ .debug_line    0x0000076e      0x66d qrframe.o
+ .debug_line    0x00000ddb      0xcec qrencode.o
+ .debug_line    0x00001ac7      0x363 i2c_phys.o
+ .debug_line    0x00001e2a      0x3b7 sha204_comm.o
+ .debug_line    0x000021e1      0x976 sha204_comm_marshaling.o
+ .debug_line    0x00002b57      0x33c sha204_i2c.o
+ .debug_line    0x00002e93      0x13a timer_utilities.o
+ .debug_line    0x00002fcd      0x2b4 base64_dec.o
+ .debug_line    0x00003281      0x239 base64_enc.o
+ .debug_line    0x000034ba       0x4d qrv4l2.o
+ .debug_line    0x00003507      0x133 c:/program files/atmel/avr tools/avr toolchain/bin/../lib/gcc/avr/4.5.1/../../../../avr/lib/avr5\libc.a(calloc.o)
+ .debug_line    0x0000363a      0x3c8 c:/program files/atmel/avr tools/avr toolchain/bin/../lib/gcc/avr/4.5.1/../../../../avr/lib/avr5\libc.a(malloc.o)
+
+.debug_frame    0x00000000      0x4e0
+ *(.debug_frame)
+ .debug_frame   0x00000000       0x90 qrauth.o
+ .debug_frame   0x00000090       0x70 qrframe.o
+ .debug_frame   0x00000100       0x70 qrencode.o
+ .debug_frame   0x00000170       0x80 i2c_phys.o
+ .debug_frame   0x000001f0       0x60 sha204_comm.o
+ .debug_frame   0x00000250      0x100 sha204_comm_marshaling.o
+ .debug_frame   0x00000350       0xc0 sha204_i2c.o
+ .debug_frame   0x00000410       0x30 timer_utilities.o
+ .debug_frame   0x00000440       0x30 base64_dec.o
+ .debug_frame   0x00000470       0x20 base64_enc.o
+ .debug_frame   0x00000490       0x20 c:/program files/atmel/avr tools/avr toolchain/bin/../lib/gcc/avr/4.5.1/../../../../avr/lib/avr5\libc.a(calloc.o)
+ .debug_frame   0x000004b0       0x30 c:/program files/atmel/avr tools/avr toolchain/bin/../lib/gcc/avr/4.5.1/../../../../avr/lib/avr5\libc.a(malloc.o)
+
+.debug_str      0x00000000      0xb92
+ *(.debug_str)
+ .debug_str     0x00000000      0x1fd qrauth.o
+                                0x248 (size before relaxing)
+ .debug_str     0x000001fd       0xd4 qrframe.o
+                                0x1e6 (size before relaxing)
+ .debug_str     0x000002d1       0xe6 qrencode.o
+                                0x247 (size before relaxing)
+ .debug_str     0x000003b7       0x9a i2c_phys.o
+                                0x16f (size before relaxing)
+ .debug_str     0x00000451      0x157 sha204_comm.o
+                                0x25b (size before relaxing)
+ .debug_str     0x000005a8      0x231 sha204_comm_marshaling.o
+                                0x348 (size before relaxing)
+ .debug_str     0x000007d9      0x1b9 sha204_i2c.o
+                                0x2cc (size before relaxing)
+ .debug_str     0x00000992       0x20 timer_utilities.o
+                                 0xf9 (size before relaxing)
+ .debug_str     0x000009b2       0x57 base64_dec.o
+                                0x12d (size before relaxing)
+ .debug_str     0x00000a09       0x36 base64_enc.o
+                                0x11a (size before relaxing)
+ .debug_str     0x00000a3f        0xc qrv4l2.o
+                                0x139 (size before relaxing)
+ .debug_str     0x00000a4b       0x65 c:/program files/atmel/avr tools/avr toolchain/bin/../lib/gcc/avr/4.5.1/../../../../avr/lib/avr5\libc.a(calloc.o)
+                                 0x8c (size before relaxing)
+ .debug_str     0x00000ab0       0xe2 c:/program files/atmel/avr tools/avr toolchain/bin/../lib/gcc/avr/4.5.1/../../../../avr/lib/avr5\libc.a(malloc.o)
+                                0x16a (size before relaxing)
+
+.debug_loc      0x00000000     0x4117
+ *(.debug_loc)
+ .debug_loc     0x00000000      0x46d qrauth.o
+ .debug_loc     0x0000046d      0x4c4 qrframe.o
+ .debug_loc     0x00000931     0x1374 qrencode.o
+ .debug_loc     0x00001ca5      0x2df i2c_phys.o
+ .debug_loc     0x00001f84      0x4ed sha204_comm.o
+ .debug_loc     0x00002471     0x10c1 sha204_comm_marshaling.o
+ .debug_loc     0x00003532      0x25d sha204_i2c.o
+ .debug_loc     0x0000378f       0x7a timer_utilities.o
+ .debug_loc     0x00003809      0x221 base64_dec.o
+ .debug_loc     0x00003a2a      0x25c base64_enc.o
+ .debug_loc     0x00003c86       0x68 c:/program files/atmel/avr tools/avr toolchain/bin/../lib/gcc/avr/4.5.1/../../../../avr/lib/avr5\libc.a(calloc.o)
+ .debug_loc     0x00003cee      0x429 c:/program files/atmel/avr tools/avr toolchain/bin/../lib/gcc/avr/4.5.1/../../../../avr/lib/avr5\libc.a(malloc.o)
+
+.debug_macinfo
+ *(.debug_macinfo)
+OUTPUT(qrauth.elf elf32-avr)
+LOAD linker stubs
+
+.debug_pubtypes
+                0x00000000      0x22b
+ .debug_pubtypes
+                0x00000000       0x47 qrauth.o
+ .debug_pubtypes
+                0x00000047       0x2b qrframe.o
+ .debug_pubtypes
+                0x00000072       0x2b qrencode.o
+ .debug_pubtypes
+                0x0000009d       0x1e i2c_phys.o
+ .debug_pubtypes
+                0x000000bb       0x2b sha204_comm.o
+ .debug_pubtypes
+                0x000000e6       0x2b sha204_comm_marshaling.o
+ .debug_pubtypes
+                0x00000111       0x4b sha204_i2c.o
+ .debug_pubtypes
+                0x0000015c       0x1e timer_utilities.o
+ .debug_pubtypes
+                0x0000017a       0x1e base64_dec.o
+ .debug_pubtypes
+                0x00000198       0x2b base64_enc.o
+ .debug_pubtypes
+                0x000001c3       0x12 qrv4l2.o
+ .debug_pubtypes
+                0x000001d5       0x1d c:/program files/atmel/avr tools/avr toolchain/bin/../lib/gcc/avr/4.5.1/../../../../avr/lib/avr5\libc.a(calloc.o)
+ .debug_pubtypes
+                0x000001f2       0x39 c:/program files/atmel/avr tools/avr toolchain/bin/../lib/gcc/avr/4.5.1/../../../../avr/lib/avr5\libc.a(malloc.o)
+
+.debug_ranges   0x00000000       0xc8
+ .debug_ranges  0x00000000       0x18 qrauth.o
+ .debug_ranges  0x00000018       0x88 qrencode.o
+ .debug_ranges  0x000000a0       0x10 c:/program files/atmel/avr tools/avr toolchain/bin/../lib/gcc/avr/4.5.1/../../../../avr/lib/avr5\libc.a(calloc.o)
+ .debug_ranges  0x000000b0       0x18 c:/program files/atmel/avr tools/avr toolchain/bin/../lib/gcc/avr/4.5.1/../../../../avr/lib/avr5\libc.a(malloc.o)
