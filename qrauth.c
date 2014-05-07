@@ -17,6 +17,7 @@ typedef unsigned u16;
 #define BAUD 9600 // Serial baud rate for scanner communication
 #define BAUD_TOL 2   // defaults to 2%, warns if F_CPU/BAUD don't work together
 
+// Note that this code is only proof of concept and a bit of a mess :-)
 
 // SPI communication with display
 static void sendspiblock(u8 *buf, u16 len)
